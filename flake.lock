@@ -1,0 +1,48 @@
+{
+  "nodes": {
+    "nix-sel4": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1788411538,
+        "narHash": "sha256-OMQMlO+Azs5aQ51U20LOlh1cOI097CL/+OjGRlPrPUo=",
+        "owner": "conao3",
+        "repo": "nix-sel4",
+        "rev": "10b516ae78852451133c1b13d289fe019f55a180",
+        "type": "github"
+      },
+      "original": {
+        "owner": "conao3",
+        "repo": "nix-sel4",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1788179007,
+        "narHash": "sha256-hn1oU2rue2SYK8dAr8+WNZWtbsz1S2W5mnHlSEuh3bo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "34ab99075ac4f7e40cf037eef32cb1c360bb85e9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nix-sel4": "nix-sel4",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
