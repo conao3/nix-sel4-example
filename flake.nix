@@ -2,7 +2,7 @@
   description = "A starting point for building seL4 Microkit systems with Nix";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     nix-sel4.url = "github:conao3/nix-sel4";
     nix-sel4.inputs.nixpkgs.follows = "nixpkgs";
   };
